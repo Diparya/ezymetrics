@@ -1,0 +1,5 @@
+[
+    { "name": "John Doe", "contact": "john@example.com", "status": "new" },
+    { "name": "Jane Smith", "contact": "jane@example.com", "status": "contacted" }
+  ]
+  
