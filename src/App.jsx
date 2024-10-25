@@ -5,6 +5,7 @@ import Dashboard from './pages/Dashboard';
 import Leads from './pages/Leads';
 import Analytics from './pages/Analytics';
 import Reports from './pages/Reports';
+import HomePage from './pages/HomePage';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Sidebar />
         <div className="content p-4 flex-grow">
           <Routes>
+            <Route path="/" element={<HomePage />} />
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/leads" element={<Leads />} />
             <Route path="/analytics" element={<Analytics />} />
