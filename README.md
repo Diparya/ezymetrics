@@ -1,8 +1,21 @@
-# React + Vite
+# Customizable Dashboard Project
+A responsive and customizable dashboard built with React.js, showcasing dynamically added widgets, lead management, analytics, and reporting features.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
+- Customizable Widgets: Add/remove widgets to personalize the dashboard layout.
+- Lead Management: Track recent leads with details shown in modal view.
+- Analytics & Reporting: Display sales and engagement metrics using charts, with downloadable reports in PDF and CSV formats.
+- Responsive Design: Fully responsive UI optimized for desktop and mobile.
 
-Currently, two official plugins are available:
+## Installation
+### Prerequisites
+- Node.js (v14 or above)
+- npm or yarn
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Setup
+1. Clone the repository: git clone https://github.com/diparya/ezymetrics.git
+2. Navigate to the project directory: cd ezymetrics
+3. Install dependencies: npm install
+
+### Running the Application
+To start the app in development mode, run: npm run dev
